@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="primary_blue">#1B26D4</color>
-    <color name="primary_blue_dark">#0F1899</color>
-    <color name="background_light">#F8F9FA</color>
-    <color name="input_background">#EAEAEA</color>
-    <color name="card_grey">#E0E0E0</color>
-    <color name="text_dark">#111827</color>
-    <color name="text_hint">#757575</color>
-
-    <!-- Grid Card Accent Colors -->
-    <color name="card_purple">#D8B4E2</color>
-    <color name="card_cyan">#A5F3FC</color>
-    <color name="card_yellow">#FEF08A</color>
-    <color name="card_green">#A7F3D0</color>
-    <color name="card_pink">#FBCFE8</color>
-    <color name="card_blue">#BAE6FD</color>
-    <color name="card_orange">#FED7AA</color>
+    <color name="primary_blue">#1A0FCC</color>
+    <color name="field_gray">#D9D9D9</color>
+    <color name="bottom_nav_bg">#D8CDF0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tile_purple">#A98BC4</color>
+    <color name="tile_cyan">#7FE8EE</color>
+    <color name="tile_yellow">#DDD76B</color>
+    <color name="tile_cream">#F9E49C</color>
+    <color name="tile_green">#7CEB8A</color>
+    <color name="tile_pink">#EDA9D6</color>
+    <color name="tile_blue">#7FB8E6</color>
+    <color name="tile_sand">#F5E0B0</color>
 </resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#FFFFFF"
+    android:elevation="8dp"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- Tab 1: Home / መነሻ -->
+    <LinearLayout
+        android:id="@+id/nav_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="መነሻ"
+            android:textColor="@color/primary_blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Tab 2: Cases / ጉዳዮች -->
+    <LinearLayout
+        android:id="@+id/nav_cases"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_briefcase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ጉዳዮች"
+            android:textColor="@color/text_dark"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Tab 3: Documents / ሰነዶች -->
+    <LinearLayout
+        android:id="@+id/nav_documents"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_document" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ሰነዶች"
+            android:textColor="@color/text_dark"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Tab 4: Lawyers / ጠበቆች -->
+    <LinearLayout
+        android:id="@+id/nav_lawyers"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_people" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ጠበቆች"
+            android:textColor="@color/text_dark"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Tab 5: Judiciary / ዳኝነት -->
+    <LinearLayout
+        android:id="@+id/nav_judiciary"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_grid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ዳኝነት"
+            android:textColor="@color/text_dark"
+            android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>

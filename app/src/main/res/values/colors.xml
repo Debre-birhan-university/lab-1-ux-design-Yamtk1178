@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_blue">#1B26D4</color>
+    <color name="primary_blue_dark">#0F1899</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="input_background">#EAEAEA</color>
+    <color name="card_grey">#E0E0E0</color>
+    <color name="text_dark">#111827</color>
+    <color name="text_hint">#757575</color>
+
+    <!-- Grid Card Accent Colors -->
+    <color name="card_purple">#D8B4E2</color>
+    <color name="card_cyan">#A5F3FC</color>
+    <color name="card_yellow">#FEF08A</color>
+    <color name="card_green">#A7F3D0</color>
+    <color name="card_pink">#FBCFE8</color>
+    <color name="card_blue">#BAE6FD</color>
+    <color name="card_orange">#FED7AA</color>
+</resources>
